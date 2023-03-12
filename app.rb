@@ -4,8 +4,8 @@ require_relative 'pt_br/jogo_da_forca'
 require_relative 'us_en/hangman_game'
 
 def choose_language
-    print 'English or Portugues?: '
-    gets.chomp.downcase
+  print 'English or Portugues?: '
+  gets.chomp.downcase
 end
 
 def start_game(choose_language)
