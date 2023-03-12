@@ -54,3 +54,17 @@ cd HangmanGame
 
 ./run.sh
 ```
+
+## **Screenshots**
+
+![en_loose](./docs/img/en_loose.png)
+
+![en_win](./docs/img/en_win.png)
+
+![ptbr_loose](./docs/img/ptbr_loose.png)
+
+![ptbr_win](./docs/img/ptbr_win.png)
+
+## **License**
+
+[MIT](./LICENSE)
