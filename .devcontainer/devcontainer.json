@@ -2,8 +2,8 @@
   "name": "Ruby",
   "containerUser": "ruby",
   "shutdownAction": "stopContainer",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/kyndryl,type=bind,consistency=cached",
-  "workspaceFolder": "/workspaces/kyndryl",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/personal,type=bind,consistency=cached",
+  "workspaceFolder": "/workspaces/personal",
   "build": {
     "context": ".",
     "dockerfile": "Dockerfile"

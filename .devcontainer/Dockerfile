@@ -141,7 +141,7 @@ ENV PATH $GEM_HOME/bin:$PATH
 RUN mkdir -p "$GEM_HOME" \
   && chmod 777 "$GEM_HOME" \
   && adduser --disabled-password --gecos "" ruby \
-  && apk add gcc g++ make git gnupg --no-cache \
+  && apk add gcc g++ make openssh sshpass git gnupg --no-cache \
   && gem update --system 3.4.6 \
   && gem install rubocop \
   && gem cleanup
