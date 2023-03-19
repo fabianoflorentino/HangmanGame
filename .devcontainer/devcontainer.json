@@ -43,6 +43,7 @@
         "Shopify.ruby-extensions-pack",
         "Shopify.ruby-lsp",
         "misogi.ruby-rubocop",
+        "castwide.solargraph",
         "mutantdino.resourcemonitor",
         "qwtel.sqlite-viewer"
       ]

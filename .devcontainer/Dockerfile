@@ -143,7 +143,7 @@ RUN mkdir -p "$GEM_HOME" \
   && adduser --disabled-password --gecos "" ruby \
   && apk add gcc g++ make openssh sshpass git gnupg --no-cache \
   && gem update --system 3.4.6 \
-  && gem install rubocop \
+  && gem install rubocop solargraph \
   && gem cleanup
 
 USER ruby
